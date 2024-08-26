@@ -1,0 +1,2220 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+
+    <style>
+        .fixed-header {
+            position: fixed;
+            visibility: visible;
+            z-index: 100;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light shadow p-0"
+        style="border-top: 3px solid #9e2558; background-color: white;">
+        <div class="justify-content-between container align-items-center d-flex m-0"
+            style="max-width: 100% !important;">
+            <a href="#" class="navbar-brand logo align-self-start">
+                <img src="assets/img/Logo-Chetor-New.jpg" width="170px">
+            </a>
+            <button type="button" class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#nav-main"
+                aria-expanded="false" aria-controls="nav-main">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between align-self-center navv"
+                id="nav-main">
+                <div class="flex-fill">
+                    <ul class="navbar-nav mx-lg-auto" id="navwhidth">
+                        <li id="li1" class="nav-item"
+                            style="background-color: rgb(235, 236, 236); border-bottom: 2px solid #9e2558;">
+                            <a href="#" class="nav-link" id="txt1">خانه</a>
+                        </li>
+                        <li class="nav-item before-li">
+                            <a href="#" class="nav-link" id="txt2">سلامتی</a>
+                            <div><i class=" fa fa-caret-down" id="i1"></i></div>
+                            <ul class="submenu navbar-nav justify-content-start mx-lg-auto">
+
+                                <li class="myli"><a href="#">ویروس کرونا
+                                        <span
+                                            style="border-radius: 0; background-color: red; color: white; padding: 0 2px 0 2px; float: left;margin-left: 15px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">جدید</span>
+                                    </a>
+
+                                </li>
+
+
+                                <li class="myli"><a href="#">روانشناسی</a></li>
+                                <li class="myli"><a href="#">بیماری‌ها</a></li>
+                                <li class="myli"><a href="#">داروها</a></li>
+                                <li class="myli"><a href="#">سلامت زنان</a></li>
+                                <li class="myli"><a href="#">سلامت و تربیت کودک</a></li>
+                                <li class="myli"><a href="#">تناسب اندام</a></li>
+                                <li class="myli"><a href="#">رژیم و تغذیه</a></li>
+                                <li class="myli"><a href="#">خواص خوراکی‌ها</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item before-li">
+                            <a href="#" class="nav-link" style="color: #8224e3;" id="txt3">سبک زندگی</a>
+                            <div><i class=" fa fa-caret-down" id="i2"></i></div>
+                            <ul class="submenu navbar-nav justify-content-start mx-lg-auto">
+
+                                <li class="myli"><a href="#">تکنولوژی</a></li>
+
+
+                                <li class="myli"><a href="#">خانه داری</a></li>
+                                <li class="myli"><a href="#">معرفی کتاب</a></li>
+                                <li class="myli"><a href="#">فیلم و سریال</a></li>
+                                <li class="myli"><a href="#">مد و زیبایی</a></li>
+                                <li class="myli"><a href="#">عادات موفقیت</a></li>
+                                <li class="myli"><a href="#">دکوراسیون داخلی</a></li>
+                                <li class="myli"><a href="#">هنر و صنایع دستی</a></li>
+                                <li class="myli"><a href="#">خواص خوراکی‌ها</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item before-li">
+                            <a href="#" class="nav-link" style="color: #63A533;">رشد و توسعه فردی</a>
+                            <div><i class=" fa fa-caret-down"></i></div>
+                            <ul class="submenu navbar-nav justify-content-start mx-lg-auto">
+
+                                <li class="myli"><a href="#">استرس</a></li>
+
+
+                                <li class="myli"><a href="#">انگیزه</a></li>
+                                <li class="myli"><a href="#">تصمیم گیری</a></li>
+                                <li class="myli"><a href="#">تقویت حافظه</a></li>
+                                <li class="myli"><a href="#">مثبت اندیشی</a></li>
+                                <li class="myli"><a href="#">هوش و خلاقیت</a></li>
+                                <li class="myli"><a href="#">اعتماد به نفس</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li class="nav-item before-li">
+                            <a href="#" class="nav-link" style="color: #BC2B8C;">موفقیت شغلی و تحصیلی</a>
+                            <div><i class=" fa fa-caret-down"></i></div>
+                            <ul class="submenu navbar-nav justify-content-start mx-lg-auto">
+
+                                <li class="myli"><a href="#">مسیر شغلی</a></li>
+
+
+                                <li class="myli"><a href="#">پول و ثروت</a></li>
+                                <li class="myli"><a href="#">کار در منزل</a></li>
+                                <li class="myli"><a href="#">یادگیری زبان</a></li>
+                                <li class="myli"><a href="#">امتحان و کنکور</a></li>
+                                <li class="myli"><a href="#">مصاحبه و رزومه</a></li>
+                                <li class="myli"><a href="#">بهره وری و مدیریت زمان</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li class="nav-item before-li">
+                            <a href="#" class="nav-link" style="color: #37B2AE;">مهارت های ارتباطی</a>
+                            <div><i class=" fa fa-caret-down"></i></div>
+                            <ul class="submenu navbar-nav justify-content-start mx-lg-auto">
+
+                                <li class="myli"><a href="#">مذاکره</a></li>
+
+
+                                <li class="myli"><a href="#">فن بیان</a></li>
+                                <li class="myli"><a href="#">خانواده</a></li>
+                                <li class="myli"><a href="#">کاریزما</a></li>
+                                <li class="myli"><a href="#">زبان بدن</a></li>
+                                <li class="myli"><a href="#">هوش هیجانی</a></li>
+                                <li class="myli"><a href="#">آداب معاشرت</a></li>
+                                <li class="myli"><a href="#">روابط عاطفی و ازدواج</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li class="nav-item before-li">
+                            <a href="#" class="nav-link" style="color: #2B22D6;">سفر و گردشگری</a>
+                        </li>
+                        <li class="nav-item before-li">
+                            <a href="#" class="nav-link" style="color: #1CBC31;">کسب و کار</a>
+                            <div><i class=" fa fa-caret-down"></i></div>
+                            <ul class="submenu navbar-nav justify-content-start mx-lg-auto">
+
+                                <li class="myli"><a href="#">مالی و سرمایه گذاری</a></li>
+
+
+                                <li class="myli"><a href="#">مدیریت و رهبری</a></li>
+                                <li class="myli"><a href="#">منابع انسانی</a></li>
+                                <li class="myli"><a href="#">استارتاپ و کارآفرینی</a></li>
+                                <li class="myli"><a href="#">بازاریابی و فروش</a></li>
+
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                    </li>
+                    </ul>
+
+                </div>
+
+
+                <form style=" height: 87px; direction: ltr; margin-left: 15px;">
+
+                    <i class="fa fa-search pulse"
+                        style="z-index: 2; position: relative; float: left; top: 30px; left: 3px; color: #9e2558;"></i>
+
+
+
+                    <input id="searchbox" type="text" class="txt" placeholder="جستجو کردن..."
+                        style=" border: none; padding-left: 25px; width: 20px; position: absolute; height: 87px; left: 23px; direction: rtl; outline: none; padding-right: 12px;">
+
+                    <i class="fa fa-window-close pulse" id="close1"
+                        style="visibility: hidden; z-index: 10; position: relative; float: left; top: 30px; left: -20px; padding: 1px 0 0 4px; color:#9e2558"></i>
+                </form>
+                <img src="assets/img/17.JPG" class="d-none">
+
+
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="first">
+        <div class="container m-0" style="max-width: 100%;">
+            <div class="row">
+                <div class="col-lg-7 ps-0 pe-lg-4 pe-sm-0">
+
+                    <div class="card card1" style="border: none; border-radius: 10px; overflow: hidden; ">
+                        <span class="lbl1">استرس</span>
+
+                        <img class="card-img-top banner1" src="assets/img/1.jpg"
+                            style="border-radius: 10px; height: 504px;">
+                        <div class="card-body position-absolute col-lg-8 col-sm-8"
+                            style="top: 390px;position: absolute; width: 100%;">
+                            <h4 class="fw-bold text-light">
+                                خستگی بحران چیست؟ چطور با آن مقابله کنیم؟
+                            </h4>
+                            <p style="font-size: 14px;">
+                                <a href="#" class="text-decoration-none text-light fw-bold me-1 ms-0">آمنه صرامی</a>
+
+                                <i class="fa fa-circle" style="color: rgb(223, 221, 219); font-size: 16px;"></i>
+                                <span class="ms-1" style="color:rgb(223, 221, 219) ;">بیستم تیرماه ۱۴۰۱</span>
+                                <span style="color: white; float: left;"><i class="fa fa-comments"></i> ۰</span>
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 col-sm-12 ps-lg-4 ps-sm-0" style="padding-right: 2px;">
+                    <div class="card card1" style="border: none;border-radius: 10px; overflow: hidden; ">
+                        <span class="lbl2">خواص خوراکی‌ها</span>
+
+                        <img class="card-img-top banner1" src="assets/img/2.jpg" style="border-radius: 10px;">
+                        <div class="card-body position-absolute col-lg-8 col-sm-8 mt-sm-5 mt-lg-0"
+                            style="top: 180px;position: absolute;width: auto">
+                            <h4 class="text-light" style="font-size: large;font-weight: bold;">
+                                کازیین چیست؟ همه چیز درباره این پروتیین شیر
+                            </h4>
+                            <p style="font-size: 14px;">
+                                <a href="#" class="text-decoration-none text-light fw-bold me-1 ms-0">آمنه صرامی</a>
+
+                                <i class="fa fa-circle" style="color: rgb(223, 221, 219); font-size: 16px;"></i>
+                                <span class="ms-1" style="color:rgb(223, 221, 219) ;">بیستم تیرماه ۱۴۰۱</span>
+                                <span style="color: white; float: left;"><i class="fa fa-comments"></i> ۰</span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 2px;">
+                        <div class="col-lg-6 col-sm-6" style="padding: 0 15px 0 1px;">
+                            <div class="card card1" style="border: none;border-radius: 10px; overflow: hidden; ">
+
+                                <img class="card-img-top banner1" src="assets/img/3.jpg" style="border-radius: 10px;">
+                                <div class="card-body position-absolute col-lg-8 col-sm-8"
+                                    style="top: 120px; width: auto;">
+                                    <h4 class="text-light" style="font-size: small;font-weight: bold;">
+                                        اثر دانینگ کروگر؛ علت و پیامدهای توهم دانایی
+                                    </h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6" style="padding: 0 1px 0 15px;">
+                            <div class="card card1" style="border: none;border-radius: 10px; overflow: hidden; ">
+
+
+                                <img class="card-img-top banner1" src="assets/img/4.jpg" style="border-radius: 10px;">
+                                <div class="card-body position-absolute col-lg-8 col-sm-8"
+                                    style="top: 130px;width: auto;">
+                                    <h4 class="text-light" style="font-size: .95rem; font-weight: bold;">
+                                        عشق افلاطونی چیست؟ چه تفاوتی با روابط عاطفی دیگر دارد؟
+                                    </h4>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="second me-sm-3 me-lg-0 ms-lg-0 ms-sm-1">
+        <div class="container" style="max-width: 100%;">
+            <div class="row">
+                <div class="col-lg-8 pe-lg-5" style="">
+                    <div class="row">
+                        <div class="col-lg-12 article-header p-1 mb-2">
+                            <i class="fa fa-thermometer pe-1"></i>
+                            <h3 class="hot-article" style="color: #FF3A3A;">مقالات داغ</h3>
+                        </div>
+                    </div>
+                    <div class="row mb-4 mt-3">
+                        <div class="col-lg-6 articles pe-0 col-sm-6">
+
+                            <div class="card" style="border-radius: 10px;">
+                                <img class="card-img-top img-article" src="assets/img/5.jpg">
+                                <div class="card-body shadow articles-cardbody">
+                                    <h6 class="h-article">
+                                        فیلم سینمایی درباره جهان‌های موازی؛ ۱۸فیلم از بهترین‌ها
+                                    </h6>
+                                    <p style="margin-bottom: 10px;">
+                                        <a href="#" class="text-decoration-none a-article me-1 ms-0">آمنه صرامی</a>
+
+                                    </p>
+                                    <p class="p-article">
+                                        جهان موازی مفهومی است که برای سینما تازگی ندارد. در فیلم‌هایی که با این موضوع
+                                        ساخته...
+                                    </p>
+                                    <a class="btn p-1 btn-read">مطالعه مطلب...</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6 articles col-sm-6">
+
+                            <div class="card" style="border-radius: 10px;">
+                                <img class="card-img-top img-article" src="assets/img/28.jpg">
+                                <div class="card-body shadow articles-cardbody">
+                                    <h6 class="h-article">
+                                        رژیم سیب زمینی و فواید آن + برنامه غذایی سه روزه
+                                    </h6>
+                                    <p style="margin-bottom: 10px;">
+                                        <a href="#" class="text-decoration-none a-article me-1 ms-0">فاطمه زنگنه</a>
+
+                                    </p>
+                                    <p class="p-article">
+                                        در دنیای پرشتاب امروز، بسیاری از افراد دنبال رژیم‌های سریعی هستند که در مدت
+                                        زمانی کوتاه به...
+                                    </p>
+                                    <a class="btn p-1 btn-read">مطالعه مطلب...</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-lg-6 articles pe-0 col-sm-6">
+
+                            <div class="card" style="border-radius: 10px;">
+                                <img class="card-img-top img-article" src="assets/img/8.jpg">
+                                <div class="card-body shadow articles-cardbody">
+                                    <h6 class="h-article">
+                                        شهوت چیست و چه تفاوتی با عشق دارد؟
+                                    </h6>
+                                    <p style="margin-bottom: 10px;">
+                                        <a href="#" class="text-decoration-none a-article me-1 ms-0">حمیده کریمی</a>
+
+                                    </p>
+                                    <p class="p-article">
+                                        شهوت احساسی ناشی از انفعالات شیمیایی در مغز است که گاهی با عشق اشتباه گرفته
+                                        می‌شود. در این...
+                                    </p>
+                                    <a class="btn p-1 btn-read">مطالعه مطلب...</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6 articles col-sm-6">
+
+                            <div class="card" style="border-radius: 10px;">
+                                <img class="card-img-top img-article" src="assets/img/9.jpg">
+                                <div class="card-body shadow articles-cardbody">
+                                    <h6 class="h-article">
+                                        کازیین چیست؟ همه چیز درباره این پروتیین شیر
+                                    </h6>
+                                    <p style="margin-bottom: 10px;">
+                                        <a href="#" class="text-decoration-none a-article me-1 ms-0">فرناز تاج‌بخش</a>
+
+                                    </p>
+                                    <p class="p-article">
+                                        کازیین همان پروتیینی است که رنگ سفید شیر را ایجاد می‌کند و علاوه بر شیر، در
+                                        محصولات لبنی...
+                                    </p>
+                                    <a class="btn p-1 btn-read">مطالعه مطلب...</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col-lg-6 articles pe-0 col-sm-6">
+
+                            <div class="card" style="border-radius: 10px;">
+                                <img class="card-img-top img-article" src="assets/img/10.jpg">
+                                <div class="card-body shadow articles-cardbody">
+                                    <h6 class="h-article">
+                                        ۲۰ اصل مهم در تربیت کودک که هر پدر و مادری باید بداند
+                                    </h6>
+                                    <p style="margin-bottom: 10px;">
+                                        <a href="#" class="text-decoration-none a-article me-1 ms-0">فایزه حاجی
+                                            آبادی</a>
+
+                                    </p>
+                                    <p class="p-article">
+                                        در این مقاله، قصد داریم درباره مهمترین اصول تربیت کودک صحبت کنیم. اصولی که آموزش
+                                        و درونی...
+                                    </p>
+                                    <a class="btn p-1 btn-read">مطالعه مطلب...</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-6 articles col-sm-6">
+
+                            <div class="card" style="border-radius: 10px;">
+                                <img class="card-img-top img-article" src="assets/img/11.jpg">
+                                <div class="card-body shadow articles-cardbody">
+                                    <h6 class="h-article">
+                                        کشور آذربایجان؛ تاریخچه و دانستنی‌ها + ۹جاذبه دیدنی آن
+                                    </h6>
+                                    <p style="margin-bottom: 10px;">
+                                        <a href="#" class="text-decoration-none a-article me-1 ms-0">حمیده کریمی</a>
+
+                                    </p>
+                                    <p class="p-article">
+                                        کشور آذربایجان یکی از کشورهای توریستی غرب آسیاست و فرهنگی غنی و جاذبه‌های
+                                        گردشگری متنوعی...
+                                    </p>
+                                    <a class="btn p-1 btn-read">مطالعه مطلب...</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 last-header me-lg-4 shadow coll-sm-12">
+                    <div class="row">
+                        <div class="col-lg-12  p-1 mb-2 mt-3">
+                            <i class="fa fa-clock pe-1" style="color: #c55a87;"></i>
+                            <h3 class="hot-article">آخرین مطالب</h3>
+                            <hr class="hr-last">
+
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+
+                        <ul class="p-0 m-0 ul1">
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/18.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">خواص بومادران برای بدن؛ عوارض احتمالی، مقدار و روش مصرف
+                                        </h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">فاطمه زاهدی
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/7.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">هفته اول بارداری؛ علایم رایج و مراقبت‌های لازم</h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">فاطمه زنگنه
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/19.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">آلبرت بندورا؛ روانشناس تاثیرگذار حوزه یادگیری</h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">فاطمه زنگنه
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/26.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">آیا استفاده دوباره از بطری‌های آب خطرناک است؟</h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">فاطمه زنگنه
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/20.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">همه‌چیز درمورد آموزش آموزش زبان انگلیسی در منزل به صورت
+                                            رایگان</h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">فاطمه زنگنه
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/21.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">گیاه زوفا؛ فواید و عوارض این گیاه دارویی</h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">فاطمه زاهدی
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/22.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">فتق ناف؛ از علت تا درمان</h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">فرناز تاج‌بخش
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/23.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">بهترین کتاب‌های خاطرات؛ معرفی 16اثر خواندنی</h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">زهرا سارایی
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/24.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">۸روش برای از بین بردن پوست مرده کف پا</h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">فاطمه زاهدی
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/25.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">آب نارگیل؛ خواص؛ روش نگهداری و نکات احتیاطی مصرف</h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">فاطمه زنگنه
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/27.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">روانشناسی گشتالت؛ اصول و کاربردهای آن در یادگیری و
+                                            بازاریابی</h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">فاطمه زنگنه
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/18.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">خواص بومادران برای بدن؛ عوارض احتمالی، مقدار و روش مصرف
+                                        </h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">فاطمه زاهدی
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/7.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">هفته اول بارداری؛ علایم رایج و مراقبت‌های لازم</h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">فاطمه زنگنه
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="pb-1 mb-3 d-flex">
+                                <div class="avatar flex-shrink-0 me-2">
+                                    <span class="avatar-initial rounded bg-label-primary">
+                                        <img class="img-last" src="assets/img/19.jpg">
+                                    </span>
+                                </div>
+                                <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                    <div class="me-2">
+                                        <h6 class="mb-0 h-last">آلبرت بندورا؛ روانشناس تاثیرگذار حوزه یادگیری</h6>
+                                        <small class="small-last">
+                                            <a class="text-decoration-none">فاطمه زنگنه
+                                                <i class="fa fa-circle"></i>
+                                            </a>
+                                            ۷بهمن ۱۴۰۱</small>
+                                    </div>
+
+                                </div>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                    <a class="btn btn-more">مطالب بیشتر
+                        <i class="fa fa-chevron-left"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section style="padding-top: 80px">
+        <div class="container shadow" style="max-width: 99%; border-radius: 10px;">
+            <div class="row">
+                <div class="col-lg-12 talk-header pb-4">
+                    <div class="col-lg-12">
+                        <i class="fa fa-microphone pe-1"></i>
+                        <h3 class="h3-talk">گفتگو با متخصصان</h3>
+                        <div class="col-lg-12 dashh"
+                            style="background: url(assets/img/dash.png); background-repeat: repeat;width: 85.8%; display: inline-block;opacity: 0.2;;height: 8px;">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row pb-5" style="background-color: white; border-radius: 10px;">
+
+                <div class="col-lg-3 col-sm-6" style="padding-right: 22px;">
+                    <div class="card" style="border: none; overflow: hidden;border-radius: 10px;  ">
+
+                        <img class="card-img-top banner-talk" src="assets/img/12.jpg" style="border-radius: 10px;">
+                        <div class="card-body position-absolute card-txt col-lg-8 col-sm-8 text-center"
+                            style="background-color: rgba(61, 60, 60, 0.6); top: 100px; color: white;position: absolute;width: auto">
+                            <h4 class="" style="font-size: .95rem;font-weight: bold; line-height: 1.5;">
+                                مدیریت بحران نوجوانی؛ پرسش‌های رایج در گفتگو با دکتر سولماز رضایی شجاعی
+                            </h4>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card" style="border: none; overflow: hidden;border-radius: 10px;  ">
+
+                        <img class="card-img-top banner-talk" src="assets/img/29.jpg" style="border-radius: 10px;">
+                        <div class="card-body card-txt position-absolute col-lg-8 col-sm-8 text-center"
+                            style="background-color: rgba(61, 60, 60, 0.6); top: 100px; color: white;position: absolute;width: auto">
+                            <h4 class="" style="font-size: .95rem;font-weight: bold;line-height: 1.5;">
+                                چگونه با خیانت کنار بیاییم؟ گفت‌وگو با دکتر هادی دهقانی
+                            </h4>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card" style="border: none; overflow: hidden;border-radius: 10px;  ">
+
+                        <img class="card-img-top banner-talk" src="assets/img/30.jpg" style="border-radius: 10px;">
+                        <div class="card-body card-txt position-absolute col-lg-8 col-sm-8 text-center"
+                            style="background-color: rgba(61, 60, 60, 0.6); top: 100px; color: white;position: absolute;width: auto">
+                            <h4 class="" style="font-size: .95rem;font-weight: bold;line-height: 1.5;">
+                                چه چیزهایی باید درباره عزت نفس بدانیم؟ گفت‌وگو با زهرا نظریان، روان‌درمانگر
+                            </h4>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6" style="padding-left: 20px;">
+                    <div class="card" style="border: none; overflow: hidden; border-radius: 10px; ">
+
+                        <img class="card-img-top banner-talk" src="assets/img/31.jpg" style="border-radius: 10px;">
+                        <div class="card-body card-txt position-absolute col-lg-8 col-sm-8 text-center"
+                            style="background-color: rgba(61, 60, 60, 0.6); top: 100px; color: white;position: absolute;width: auto">
+                            <h4 class="" style="font-size: .95rem;font-weight: bold;line-height: 1.5;">
+                                درمان‌های زیبایی در دندانپزشکی؛ گفت‌وگو با دکتر زهرا محتشم راد
+                            </h4>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+        </div>
+    </section>
+    <section class="pt-4">
+        <div class="container" style="max-width: 97%;">
+            <div class="row shadow" style="background-color: white;border-radius: 10px;">
+                <div class="col-lg-12  p-3 mb-2 mt-3">
+                    <i class="fa fa-bullhorn pe-1" style="color: #c55a87;"></i>
+                    <h3 class="hot-article">کسب‌وکار شما</h3>
+                    <hr class="hr-last ms-1" style="width: 87%; margin-top: 14px;">
+
+                </div>
+                <div class="row card-body pe-4">
+
+                    <ul class="p-0 m-0 col-lg-4 jobs coll-sm-6">
+                        <li class="pb-1 mb-3 d-flex">
+                            <div class="avatar flex-shrink-0 me-2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/32.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">۴شهر جذاب و امن ایران که برای سفر مناسب است</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 mb-3 d-flex">
+                            <div class="avatar flex-shrink-0 me-2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/35.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">نهالی بکاریم تا ریه‌های زمین، عمیق‌تر نفس بکشند</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 mb-3 d-flex">
+                            <div class="avatar flex-shrink-0 me-2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/7.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">هفته اول بارداری؛ علایم رایج و مراقبت‌های لازم</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="p-0 m-0 col-lg-4 jobs coll-sm-6">
+                        <li class="pb-1 mb-3 d-flex">
+                            <div class="avatar flex-shrink-0 me-2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/38.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">آشنایی با خواص انواع عرقیات گیاهی برای لاغری</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 mb-3 d-flex">
+                            <div class="avatar flex-shrink-0 me-2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/33.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">هرآنچه که باید در سفر به آنتالیا بدانید</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 mb-3 d-flex">
+                            <div class="avatar flex-shrink-0 me-2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/36.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">در ظرف‌های سفالی چه چیزی سرو کنیم؟</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="p-0 m-0 col-lg-4 jobs jobs2">
+                        <li class="pb-1 mb-3 d-flex">
+                            <div class="avatar flex-shrink-0 me-2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/39.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">از تینت لب چه استفاده‌هایی می‌شود؟</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 mb-3 d-flex">
+                            <div class="avatar flex-shrink-0 me-2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/34.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">انواع مشاوره‌های حقوقی با وکیل مشهد در وکیل VIP</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 mb-3 d-flex">
+                            <div class="avatar flex-shrink-0 me-2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/37.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">روش‌های ماساژ برای افرادی که مداوم پشت لپ تاپ می‌نشینند</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <div class="pb-4" style="height: 70px;">
+                    <a class="btn btn-more-job">مطالب بیشتر</a>
+                </div>
+            </div>
+    </section>
+    <section class="pt-4">
+        <div class="container pt-3" style="max-width: 95%;">
+            <div class="row" style="border-radius: 10px;">
+                <div class="col-lg-12  p-1 mt-3" style="margin-bottom: 15px;">
+                    <i class="fa fa fa-comments pe-1" style="color: #c55a87;"></i>
+                    <h3 class="hot-article">پربحث ترین مطالب</h3>
+                    <hr class="hr-last ms-2 hr-last2" style="">
+
+                </div>
+                <div class="row pb-3 ps-0" style="background-color: white;">
+
+                    <div class="col-lg-3 ps-1 col-sm-6">
+                        <div class="card" style="border: none;cursor: pointer; overflow: hidden; border-radius: 10px;">
+
+                            <img class="card-img-top banner-talk" src="assets/img/40.jpg" style="border-radius: 10px;">
+                            <div class="card-body position-absolute col-lg-8 col-sm-8 text-center"
+                                style=" top: 100px; color: white;position: absolute;width: auto">
+                                <h4 class="" style="font-size: .95rem;font-weight: bold;">
+                                    بهترین خوانندگان جهان؛ از مایکل جکسون تا دیوید بووی
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ps-1 col-sm-6">
+                        <div class="card" style="border: none;cursor: pointer; overflow: hidden; border-radius: 10px ">
+
+                            <img class="card-img-top banner-talk" src="assets/img/41.jpg" style="border-radius: 10px;">
+                            <div class="card-body position-absolute col-lg-8 col-sm-8 text-center"
+                                style=" top: 100px; color: white;position: absolute;width: auto">
+                                <h4 class="" style="font-size: .95rem;font-weight: bold;">
+                                    نحوه‌ی برخورد با والدین سمی در جایگاه فردی بالغ
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ps-1 col-sm-6 mt-sm-3 mt-lg-0">
+                        <div class="card" style="border: none;cursor: pointer; overflow: hidden; border-radius: 10px ">
+
+                            <img class="card-img-top banner-talk" src="assets/img/42.jpg" style="border-radius: 10px;">
+                            <div class="card-body position-absolute col-lg-8 col-sm-8 text-center"
+                                style="top: 100px; color: white;position: absolute;width: auto">
+                                <h4 class="" style="font-size: .95rem;font-weight: bold;">
+                                    مریم میرزاخانی؛ بیوگرافی و افتخارات این ریاضی‌دان نابغه
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ps-1 col-sm-6 mt-sm-3 mt-lg-0">
+                        <div class="card" style="border: none;cursor: pointer; overflow: hidden;border-radius: 10px ">
+
+                            <img class="card-img-top banner-talk" src="assets/img/43.jpg" style="border-radius: 10px;">
+                            <div class="card-body position-absolute col-lg-8 col-sm-8 text-center"
+                                style=" top: 100px; color: white;position: absolute;width: auto">
+                                <h4 class="" style="font-size: .95rem;font-weight: bold;">
+                                    بهترین مجموعه کتاب‌های جهان؛ از ارباب حلقه‌ها تا امانت‌بگیرها
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row ps-0 mb-3" style="background-color: white;">
+
+                    <div class="col-lg-3 ps-1 col-sm-6">
+                        <div class="card" style="border: none;cursor: pointer; overflow: hidden; border-radius: 10px">
+
+                            <img class="card-img-top banner-talk" src="assets/img/44.jpg" style="border-radius: 10px;">
+                            <div class="card-body position-absolute col-lg-8 col-sm-8 text-center"
+                                style=" top: 100px; color: white;position: absolute;width: auto">
+                                <h4 class="" style="font-size: .95rem;font-weight: bold;">
+                                    شرایط فرزندخواندگی برای زنان مجرد؛هرآنچه باید بدانید
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ps-1 col-sm-6">
+                        <div class="card" style="border: none;cursor: pointer; overflow: hidden; border-radius: 10px">
+
+                            <img class="card-img-top banner-talk" src="assets/img/45.jpg" style="border-radius: 10px;">
+                            <div class="card-body position-absolute col-lg-8 col-sm-8 text-center"
+                                style=" top: 100px; color: white;position: absolute;width: auto">
+                                <h4 class="" style="font-size: .95rem;font-weight: bold;">
+                                    قانون ترک کار؛ نحوه شکایت کارفرما
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ps-1 col-sm-6 mt-sm-3 mt-lg-0">
+                        <div class="card" style="border: none;cursor: pointer; overflow: hidden; border-radius: 10px ">
+
+                            <img class="card-img-top banner-talk" src="assets/img/46.png" style="border-radius: 10px;">
+                            <div class="card-body position-absolute col-lg-8 col-sm-8 text-center"
+                                style="top: 100px; color: white;position: absolute;width: auto">
+                                <h4 class="" style="font-size: .95rem;font-weight: bold;">
+                                    تجربه اوج چیست و چه زمانی رخ می‌دهد؟
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ps-1 col-sm-6 mt-sm-3 mt-lg-0">
+                        <div class="card" style="border: none; cursor: pointer; overflow: hidden; border-radius: 10px">
+
+                            <img class="card-img-top banner-talk" src="assets/img/47.jpg" style="border-radius: 10px;">
+                            <div class="card-body position-absolute col-lg-8 col-sm-8 text-center"
+                                style=" top: 100px; color: white;position: absolute;width: auto">
+                                <h4 class="" style="font-size: .95rem;font-weight: bold;">
+                                    ویژگی‌های شخصیت infp؛ این تیپ درونگرا، محجوب و خلاق
+                                </h4>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+    <section class="pt-5">
+        <div class="container" style="max-width: 100%;">
+            <div class="row">
+                <div class="col-lg-12" style="background-color: #FFF0D6;">
+                    <div style="margin: 40px 40px 40px 40px; border: 2px solid #ffbf00 ; border-radius: 10px;">
+                        <img src="assets/img/animation.gif" style="border-radius: 10px; width: 100%;">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="pt-4">
+        <div class="container shadow container2" style="max-width: 96%; border-radius: 10px;">
+            <div class="row pb-2" style="background-color: white;border-radius: 10px;">
+                <div class="col-lg-12  p-1 pt-3 mb-2 mt-3">
+                    <span class="p-1 square"></span>
+                    <h3 class="hot-article" style="position: relative;right: 38px;">موضوعات وبسایت <<چطور>> ، برای زندگی
+                            بهتر، سالم‌تر و موفق‌تر</h3>
+                    <hr class="hr-last hr-lastt" style="width: 54.5%;height: 3px !important;margin-left: 18px;">
+
+                </div>
+                <div class="row card-body pt-0 card2" style="padding-right: 40px;">
+
+                    <ul class="p-0 m-0 col-lg-4 myul">
+                        <li class="pb-1 mb-1 d-flex first-title">
+                            <p class="coll-sm-12" style="width: 85%;border-radius: 10px;">
+                                <i class="fa fa-users pe-2 me-1"></i>
+                                مهارت‌های ارتباطی
+                            </p>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/48.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">پارانویا و ازدواج؛ علت پارانویا در رابطه، روش مقابله و...
+                                    </h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/49.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">حریم خصوصی در زندگی مشترک؛ رازداری چه زمانی جایز است؟</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/50.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">چرا بعضی‌ها همیشه دیر می‌کنند؟ ۷توصیه برای رفع این مشکل</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 ">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/51.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">تمرینات فن بیان؛ ۱۱ تمرین برای بیان بهتر در جمع‌های کوچک
+                                        و...</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 ">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/52.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">تاثیر پیام دادن در رابطه عاطفی؛ سبک‌ها و بایدها و
+                                        نبایدهای...</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="p-0 m-0 col-lg-4 myul">
+                        <li class="pb-1 mb-1 d-flex first-title" style="margin-right: 22px;">
+                            <p class="coll-sm-12" style="width: 85%;border-radius: 10px;">
+                                <i class=" fa fa-puzzle-piece pe-2 me-1"></i>
+                                عادت‌های موفقیت
+                            </p>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/53.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+
+                                    <h6 class="mb-0 h-last">چگونه دنیا را تغییر دهیم؟</h6>
+
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/54.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">خودکنترلی چیست؟ روش یادگیری و تقویت آن</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/55.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">۱۰ توصیه برای بازگشت به مسیر دستیابی به اهدافمان </h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/56.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">دزموند توتو؛ اسقفی که به انسانیتفراتر از مذهب باور داشت</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/57.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">احساس گناه چه زمانی خوب است؟ چطور از عوارض آن پیشگیری کنیم؟
+                                    </h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="p-0 m-0 col-lg-4 myul">
+                        <li class="pb-1 mb-1 d-flex first-title" style="margin-right: 43px;">
+                            <p class="coll-sm-12" style="width: 85%;border-radius: 10px;">
+                                <i class="fa fa-leaf pe-2 me-1"></i>
+                                تناسب اندام
+                            </p>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/58.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">گلوتن گندم چیست و چگونه تهیه می‌شود + دستور پخت ۴ غذا با آن
+                                    </h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/59.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">پاورلیفتینگ چیست؟ چه تفاوتی با و وزنه‌برداری و بدنسازی دارد؟
+                                    </h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/60.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">رژیم سیب زمینی و فواید آن + برنامه غذایی سه روزه</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/61.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">سس ورچستر؛ انواع، فواید، طرز تهیه</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/62.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2"
+                                style="width: 300px;">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">کازیین چیست؟ همه چیز درباره این پروتیین شیر</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <div class="row card-body pt-1 card3" style="padding-right: 40px;">
+
+                    <ul class="p-0 m-0 col-lg-4 myul">
+                        <li class="pb-1 mb-1 d-flex first-title">
+                            <p class="coll-sm-12" style="width: 85%;border-radius: 10px;">
+                                <i class="fa fa-money-bill pe-2 me-1"></i>
+                                پول و ثروت
+                            </p>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/63.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last"> بهترین کتاب‌ها درمورد ثروتمند شدن؛ معرفی ۱۵ اثر خواندنی
+                                    </h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/64.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">رایج‌ترین اصطلاحات ارز دیجیتال را بشناسید</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 ">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/65.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">همه چیز درباره ارز شیبا؛ قبل از سرمایه‌گذاری بخوانید</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/66.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">استقلال مالی زنان؛ چطور شخصیتی مستقل و قدرتمند داشته باشیم؟
+                                    </h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/67.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">همه چیز درباره ارز دوج کوین؛ آیا سرمایه‌گذاری در دوج کوین...
+                                    </h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="p-0 m-0 col-lg-4 myul">
+                        <li class="pb-1 mb-1 d-flex first-title" style="margin-right: 22px;">
+                            <p class="coll-sm-12" style="width: 85%;border-radius: 10px;">
+                                <i class="fa fa-handshake pe-2 me-1"></i>
+                                مذاکره و فن بیان
+                            </p>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/68.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">تمرینات فن بیان؛ ۱۱ تمرین برای بیان بهتر در جمع‌های کوچک و
+                                        ...</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/69.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">۲۲ کتاب فن بیان از نویسندگان مطرح ایران و جهان</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/70.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">چطور متن سخنرانی جذاب و به یادماندنی بنویسیم</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/71.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">یبیان آوایی تاثیرگذار در سخنرانی</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/72.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">انواع کمک‌های حسی برای استفاده در سخنرانی</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="p-0 m-0 col-lg-4 myul">
+                        <li class="pb-1 mb-1 d-flex first-title" style="margin-right: 43px;">
+                            <p class="bg-info coll-sm-12" style="width: 85%;border-radius: 10px;">
+                                <i class="fa fa-star pe-2 me-1"></i>
+                                هوش، حافظه و خلاقیت
+                            </p>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/73.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">چرا بهترین ایده‌ها زیر دوش حمام به ذهنمان می‌رسند؟</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/74.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">تفاوت هوش سیال و متبلور چیست؟ راه‌هایی برای تقویت آنها</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li ">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/75.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">تاثیر ژنتیک و محیط بر هوش؛ کدام مهم‌تر است؟</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/76.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">انواع حافظه؛ ۴ نوع اصلی حافظه انسان و عملکرد هر یک</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/77.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">۲۰ نشانه یک ذهن خلاق</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <div class="row card-body pt-1 card3" style="padding-right: 40px;">
+
+                    <ul class="p-0 m-0 col-lg-4 myul">
+                        <li class="pb-1 mb-1 d-flex first-title">
+                            <p class="coll-sm-12" style="width: 85%;border-radius: 10px;">
+                                <i class="fa fa-suitcase pe-2 me-1"></i>
+                                مدیریت کسب‌وکار
+                            </p>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/78.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">شبکه سازی حرفه‌ای جیست؟ اهمیت، اهداف و بایدهای آن</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/79.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">۱۴ سوالی که باید در جلسات جذب سرمایه‌گذار جواب بدهید</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/80.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">۱۰ ویژگی مهم تیم‌ها در استارتاپ‌های موفق؛ سرمایه‌گذارها ...
+                                    </h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/81.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">جمع سپاری چیست؟ کاربردها، انواع، مزایا و معایب</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/82.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">۱۴ شغل از بهترین مشاغل برای دورکاری</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="p-0 m-0 col-lg-4 myul">
+                        <li class="pb-1 mb-1 d-flex first-title" style="margin-right: 22px;">
+                            <p class="coll-sm-12" style="width: 85%;border-radius: 10px;">
+                                <i class="fa fa-gavel pe-2 me-1"></i>
+                                حقوق خود را بهتر بشناسید
+                            </p>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/83.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">آزادی بیان چیست؟ مصادیق و محدودیت‌های آن</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/84.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">جامعه مدنی؛ تاریخچه، کارکرد، نقدهای وارد به آن</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/85.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">تعرض جنسی چیست + باورهای غلط رایج</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/86.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">حریم خصوصی در فضای مجازی؛ ۷ راه برای حفاظت از آن</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 me-3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/87.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">تعریف زورگیری و ۱۳ روش مقابله با آن</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                    <h6></h6>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="p-0 m-0 col-lg-4 myul">
+                        <li class="pb-1 mb-1 d-flex first-title" style="margin-right: 43px;">
+                            <p class="coll-sm-12" style="width: 85%;border-radius: 10px;">
+                                <i class="fa fa-plane pe-2 me-1"></i>
+                                سفر و گردشگری
+                            </p>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/88.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">کشور آذربایجان؛ تاریخچه و دانستنی‌ها + ۹ جاذبه دیدنی آن<h6>
+                                            <small class="small-last">
+
+                                                ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/89.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">مالزی؛ همه چیز درباره این کشور مسلمان مدرن</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/90.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">حقایقی جالب و گاهی عجیب درباره جام جهانی فوتبال</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/91.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">قدیمی ترین تمدن جهان؛ از ایران باستان تا تمدن مایا</h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="pb-1 d-flex inner-li">
+                            <div class="avatar flex-shrink-0 inner3 avatar2">
+                                <span class="avatar-initial rounded bg-label-primary">
+                                    <img class="img-last" src="assets/img/92.jpg">
+                                </span>
+                            </div>
+                            <div class="w100 d-flex flex-wrap align-items-center justify-content-between gap-2">
+                                <div class="me-2">
+                                    <h6 class="mb-0 h-last">جت لگ چیست؟ علایم و توصیه‌هایی برای پیشگیری از پرواز زدگی
+                                    </h6>
+                                    <small class="small-last">
+
+                                        ۷بهمن ۱۴۰۱</small>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+    </section>
+    <section class="pt-3">
+        <div class="container" style="max-width:99%">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="share" src="assets/img/14.JPG" style="border-radius: 10px; width: 100%;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-3">
+        <div class="container" style="max-width:100%">
+            <div class="row" style="background-color: white;">
+                <div class="col-lg-3 footer-1">
+                    <a href="#">
+                        <img class="insta" src="assets/img/instagram-banner.gif"
+                            style="width:100%;border-radius: 10px;">
+                    </a>
+                    <div class="mt-4">
+                        <a href="#" class="text-decoration-none">
+                            <img src="assets/1.jpg" alt="Protected by Copyscape">
+                        </a>
+                        <p class="text-center mt-4">
+                            در صورت استفاده از محتوای وب‌سایت بدون دادن لینک مستقیم، محتوای شما <strong>هم به صورت
+                                خودکار</strong> و <strong>هم به صورت دستی</strong> به فرم<strong>DMCA</strong> گزارش
+                            خواهد شد.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4" style="padding-right: 50px;">
+                    <div class="row">
+                        <div class="col-lg-12  p-1 mb-2 mt-1">
+
+                            <h3 class="hot-article" style="font-size: smaller;">لینکدونی</h3>
+                            <hr class="hr-last hr-last3" style="width: 320px; margin-left: 10px;">
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-l-12 links pe-1">
+
+                            <p><a href="#" href="#">خرمای مجول</a></p>
+                            <p><a href="#">انیمیشن دوبله فارسی</a></p>
+                            <p><a href="#">بازاریابی محتوا</a></p>
+                            <p><a href="#">خرید قسطی موبایل</a></p>
+                            <p><a href="#">سرمایه گذاری</a></p>
+                            <p><a href="#">تکنولوژی</a></p>
+                            <p><a href="#">بلیط قطار</a></p>
+                            <p><a href="#">آگهی خدمات</a></p>
+                            <p><a href="#">خرید خرما</a></p>
+                            <p><a href="#">خرید بلیط هواپیما</a></p>
+                            <p><a href="#">بلیط هواپیما کیش</a></p>
+                            <p><a href="#">خرید جم فری فایر</a></p>
+                            <p><a href="#">رزرو بلیط هواپیما</a></p>
+                            <p><a href="#">eames lounge chair</a></p>
+                            <p><a href="#">قیمت گوشی شیائومی</a></p>
+                            <p><a href="#">آموزش فارکس و ارز دیجیتال</a></p>
+                            <p><a href="#">قیمت بیتکوین</a></p>
+                            <p><a href="#">قیمت گوشی سامسونگ</a></p>
+                            <p><a href="#">خرید هاست و دامنه</a></p>
+                            <p><a href="#">مجله اینترنتی فناوری</a></p>
+                            <p><a href="#">اتاق فرار</a></p>
+                            <p><a href="#">قیمت ارز دیجیتال</a></p>
+                            <p><a href="#">شی باتر چیست</a></p>
+                            <p><a href="#">طریقه گرفتن شماره شبا</a></p>
+                            <p><a href="#">معامله ارز دیجیتال</a></p>
+                            <p><a href="#">پارتیشن اداری</a></p>
+                            <p><a href="#">حس هفتم </a></p>
+                            <p><a href="#">آینه کاری</a></p>
+                            <p><a href="#">بلیط هواپیما</a></p>
+                            <p><a href="#">مانتوالیاف طبیعی</a></p>
+                            <p><a href="#">انگشتر طلا</a></p>
+                            <p><a href="#">آموزش اینستاگرام</a></p>
+                            <p><a href="#">باغ تالار</a></p>
+                            <p><a href="#">لنت ترمز</a></p>
+                            <p><a href="#">قیمت گوشی پوکو</a></p>
+                            <p><a href="#">آهنگ شاد</a></p>
+                            <p><a href="#">موسسه مهاجرتی GO2TR</a></p>
+                            <p><a href="#">کرتین وال</a></p>
+                            <p><a href="#">سفرنامه نویسی</a></p>
+                            <p><a href="#">شرکت بازاریابی بین المللی</a></p>
+                            <p><a href="#">تبلیغ در گوگل</a></p>
+                            <p><a href="#">دندانپزشک کودک</a></p>
+                            <p><a href="#">معامله بیت کوین</a></p>
+                            <p><a href="#">گوشی شیائومی</a></p>
+                            <p><a href="#">مبیت مگ</a></p>
+                            <p><a href="#">دوچرخه برقی</a></p>
+                            <p><a href="#">تور مشهد از تهران</a></p>
+                            <p><a href="#">آموزش دانلود ویدیو</a></p>
+                            <p><a href="#">واتساپ جی بی ایران اپ</a></p>
+                            <p><a href="#">مهاجرت تحصیلی اروپا و کانادا</a></p>
+                            <p><a href="#">آمارکتس ورود</a></p>
+                            <p><a href="#">موسسه مهاجرتی صبا</a></p>
+                            <p><a href="#">رژیم کتوژنیک</a></p>
+                            <p><a href="#">مهاجرت سرمایه گذاری کانادا</a></p>
+                            <p><a href="#"> بلیط هواپیما</a></p>
+                            <p><a href="#">صرافی ارز دیجیتال بیتستان</a></p>
+                            <p><a href="#">بلیط هواپیما خارجی</a></p>
+                            <p><a href="#">فروشگاه لوازم آرایشی شاواز</a></p>
+                            <p><a href="#">افتتاح حساب در ترکیه</a></p>
+                            <p><a href="#">دکتر روانشناس در تهران</a></p>
+                            <p><a href="#">آموزش زبان فرانسه</a></p>
+                            <p><a href="#">آسا تهویه</a></p>
+                            <p><a href="#">قیمت روز گوشی</a></p>
+                            <p><a href="#">بازرگانی سپاهان همراه</a></p>
+                            <p><a href="#">دارالترجمه رسمی الف</a></p>
+                            <p><a href="#"> تحصیل در کانادا</a></p>
+                            <p><a href="#">مشاوره حقوقی</a></p>
+                            <p><a href="#">انواع لپ تاپ ایسوس</a></p>
+                            <p><a href="#">تردمیل</a></p>
+                            <p><a href="#">دوره کسب درآمد از سایت</a></p>
+                            <p><a href="#">تولید کننده شیرآلات ساختمانی</a></p>
+                            <p><a href="#">درمان پروستات</a></p>
+                            <p><a href="#">تور مشهد</a></p>
+                            <p><a href="#">قیمت لیزر الکساندرایت</a></p>
+                            <p><a href="#">سایت آشپزی رضیم</a></p>
+                            <p><a href="#">دانلود فیلم</a></p>
+                            <p><a href="#">غذای خشک سگ</a></p>
+                            <p><a href="#">نوین پرداخت</a></p>
+                            <p><a href="#">مجله پزشکی درمانکده</a></p>
+                            <p><a href="#">گوشی شیائومی</a></p>
+                            <p><a href="#">نهال گردو</a></p>
+                            <p><a href="#">مواد اولیه غذایی</a></p>
+                            <p><a href="#">فروشگاه لباس</a></p>
+                            <p><a href="#">دوره mba</a></p>
+                            <p><a href="#">سریال آکتور</a></p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2" style="padding-right: 50px;">
+                    <div class="row">
+                        <div class="col-lg-12  p-1 mb-2 mt-lg-1 mt-sm-4">
+
+                            <h3 class="hot-article" style="font-size: smaller;">خانواده چطور</h3>
+                            <hr class="hr-last hr-last4" style="width: 60px;margin-left: 10px;">
+
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="family pe-2">
+                            <li><a href="#">درجه</a></li>
+                            <li><a href="#">منومد</a></li>
+                            <li><a href="#">لیبرنو</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3" style="padding-right: 50px;">
+                    <div class="row">
+                        <div class="col-lg-12  p-1 mb-2 mt-1">
+
+                            <h3 class="hot-article" style="font-size: smaller;">چطور؛ رسانه شما</h3>
+                            <hr class="hr-last hr-last5" style="width: 140px;margin-left: 20px;">
+
+                        </div>
+                    </div>
+                    <div class="pe-lg-4 pt-3 namad">
+
+                        <img class="img-footer" src="assets/img/16.jpg">
+                        <img class="img-footer" src="assets/img/15.jpg">
+                        <img class="img-footer me-lg-5 mt-lg-3" src="assets/img/15.jpg">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="pt-4" style="background-color: white; padding-bottom: 22px;">
+        <div class="container" style="max-width: 100%;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-nav px-1">
+                        <ul class="p-0 mb-0">
+                            <li><a href="#"><i class="fa fa-shopping-basket"></i>فروشگاه</a></li>
+                            <li><a style="color: #9e2358;font-weight: bold;" href="#"><i
+                                        class="fa fa-bullhorn"></i>تبلیغات در چطور</a></li>
+                            <li><a href="#">درباره ما و شما</a></li>
+                            <li><a href="#">همکاری با ما</a></li>
+                            <li><a href="#">تماس با ما</a></li>
+                            <li><a href="#">شرایط استفاده از مطالب</a></li>
+                            <li><a href="#"></i>سلب مسیولیت</a></li>
+                            <li><a href="#"></i>سیاست حفظ حریم خصوصی</a></li>
+                        </ul>
+                        <hr style="height: 2px;opacity: 0.1;margin-top: 10px;margin-bottom: 8px;">
+                        <div class="div-footer">
+                            <span>© ۱۴۰۱-کلیه حقوق متعلق به شرکت تجارت الکترونیک توژال است</span>
+                            <span class="span-footer1"><a href="#">طراحی سایت </a>نبضی نو</span>
+                            <span class="span-footer2">All rights reserved to Tejarat Electronic Tozhal ©</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="up"><i class="fa fa fa-arrow-up"></i></span>
+        <span class="alarm"><img src="assets/img/alarm.svg">
+            <butto class="btn-tooltip" type="button" title="مشترک شوید" data-bs-toggle="tooltip"
+                data-bs-placement="top">n</button>
+
+        </span>
+    </section>
+
+    <script>
+        document.getElementById('searchbox').onclick = function () {
+            document.getElementById('txt1').style.visibility = 'hidden';
+            document.getElementById('li1').style.border = 'none';
+            document.getElementById('li1').style.background = 'none';
+            document.getElementById('txt2').style.visibility = 'hidden';
+            document.getElementById('txt3').style.visibility = 'hidden';
+            document.getElementById('i1').style.visibility = 'hidden';
+            document.getElementById('i2').style.visibility = 'hidden';
+            document.getElementById('close1').style.visibility = 'visible';
+        }
+        document.getElementById('close1').onclick = function () {
+            document.getElementById('txt1').style.visibility = 'visible';
+            document.getElementById('li1').style.borderBottom = '2px solid #9e2558';
+            document.getElementById('li1').style.backgroundColor = 'rgb(235, 236, 236)';
+            document.getElementById('txt2').style.visibility = 'visible';
+            document.getElementById('txt3').style.visibility = 'visible';
+            document.getElementById('i1').style.visibility = 'visible';
+            document.getElementById('i2').style.visibility = 'visible';
+            document.getElementById('close1').style.visibility = 'hidden';
+        }
+    </script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+    <script>
+        const toastTrigger = document.getElementById('lbltoast')
+        const toastLiveExample = document.getElementById('lbltoastdiv')
+        if (toastTrigger) {
+            toastTrigger.addEventListener('click', () => {
+                const toast = new bootstrap.Toast(toastLiveExample)
+
+                toast.show()
+            })
+        }
+
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+    </script>
+    <script>
+        var $a = $.noConflict(true);
+        $a(window).scroll(function () {
+            if ($a(window).scrollTop() >= 190) {
+                $a('.up').addClass('fixed-header');
+            }
+            else {
+                $a('.up').removeClass('fixed-header');
+            }
+        });
+    </script>
+
+
+
+</body>
+
+</html>
